@@ -9,6 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- fontAwesome -->
     <script src="https://kit.fontawesome.com/a67ac4a1e9.js" crossorigin="anonymous"></script>
+    
 </head>
 <body class="mx-auto">
   <main class="1">
@@ -58,7 +59,7 @@
                   </svg>
                   <span class="badge badge-xs badge-primary indicator-item"></span>
                   <button class="btn btn-outline btn-warning px-8 py-3">Login</button>
-                  <button class="btn btn-warning px-8 py-3">Register</button>
+                  <button class="btn btn-warning animate-pulse px-8 py-3">Register</button>
         </div>
       </div>
       <div class="flex justify-between items-center border-b-2 border-[#FFDC26] p-4 md:hidden lg:hidden ">
@@ -76,7 +77,7 @@
     </div>
     </section>
   </main>
-  <main class="2">
+  <main class="2 mt-10 md:mt-32">
     <section class="mx-auto  px-5 py-6 lg:px-28">
   <div class="bg-cover bg-center h-screen mx-auto hidden sm:block" style="background-image: url(c1-assets/cat-big.png);">
   <div class="absolute bg-transparent text-black px-4 py-2 border border-white rounded-lg">
@@ -102,7 +103,7 @@
 </div>
 </section>
   </main>
-  <main class="3 mx-auto  px-5 py-6  lg:px-28">
+  <main class="3 mt-32 mx-auto  px-5 py-6  lg:px-28">
     <h1 class="font-bold text-3xl md:text-4xl whitespace-nowrap">Browse By Categories</h1>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 my-5">
       <!-- card-1 -->
@@ -185,8 +186,7 @@
       </div>
     </div>
   </main>
-  
-<main class="4 max-ws-screen-7xl mx-auto px-5 py-6 lg:px-28 bg-[#FFF9F4] space-y-6">
+<main class="4 mt-32 max-ws-screen-7xl mx-auto md:p-36 lg:px-28 bg-[#FFF9F4] space-y-6">
   <h1 class="font-bold text-3xl md:text-4xl text-center">Browse By Categories</h1>
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -312,7 +312,7 @@
   </div>
 </main>
 
-  <main class="5 mb-28 mx-5 space-y-6 md:px-28">
+  <main class="5 mt-32  mx-5 space-y-6 md:px-28">
     <h1 class="font-bold text-3xl md:text-4xl whitespace-nowrap">Everyday low Price</h1>
     <div class="flex flex-col gap-5 md:flex-row">
       <!-- card-1 -->
@@ -333,14 +333,59 @@
         <div class=" md:mx-auto md:pt-40">
           <h2 class="text-3xl font-bold ">T-Shirt for Dogs</h2>
           <p class="font-bold text-yellow-300 text-6xl">$7.99</p>
-        </div class>
-          <div class=""><img src="c1-assets/cute-pet-mid.png" alt="cute dog"></div>
+        </div >
+          <div><img class="md:mt-16" src="c1-assets/cute-pet-mid.png" alt="cute dog"></div>
         </div>
         
        </div>
 
 
     </div>
+  </main>
+  <main class="6 mt-32 px-5 py-6 mx-auto bg-[#FFF9F4] justify-center  flex flex-col gap-5 md:flex-row  ">
+
+
+    <div class="card m-6 lg:card-side bg-base-100 shadow-xl md:w-[500px] h-[300px]">
+      <figure>
+        <img
+          class="w-full h-full object-cover"
+          src="c1-assets/cat-food.avif"
+          alt="Album" />
+      </figure>
+      <div class="card-body items-center justify-center">
+        <h2 class="card-title">Buy Our Food</h2>
+        <p>Godd Quality food</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-warning">Buy Food</button>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+    <div class="card m-6 lg:card-side bg-base-100 shadow-xl md:w-[500px] h-[300px]">
+      <figure>
+        <img
+          class="w-full h-full object-cover"
+          src="c1-assets/speak.jpg"
+          alt="Album" />
+      </figure>
+      <div class="card-body items-center justify-center">
+        <h2 class="card-title">Contact Us</h2>
+        <p>Our services allow 24 </p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-warning">Call  us</button>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+
   </main>
 
   <section class="bg-[#FFF9F4] relative top-40 mx-auto w-3/4 p-8 rounded-lg shadow-lg">
@@ -387,3 +432,4 @@
     
 </body>
 </html>
+
